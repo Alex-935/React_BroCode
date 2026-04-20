@@ -12,7 +12,7 @@ function List() {
     //fruits.sort((a, b) => b.calories - a.calories); //calories
 
     const lowCalFruits = fruits.filter(fruit => fruit.calories < 100);
-    const highCalFruits = fruits.filter(fruit => fruit.calories > 100);
+    const highCalFruits = fruits.filter(fruit => fruit.calories >= 100);
 
     /*
     const listItems = fruits.map(fruit => <li key={fruit.id}>

@@ -18,7 +18,7 @@ function MyButton() {
 
     return(
         // module 
-        <button className={styles.button}>Click Me</button>
+        <button className={styles.my-button}>Click Me</button>
         // inline styles
         //<button className={styles}>Click Me</button>
     );

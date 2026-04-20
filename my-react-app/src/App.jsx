@@ -7,9 +7,14 @@ import Student from "./Student.jsx";
 import UserGreeting from "./UserGreeting.jsx";
 import List from "./List.jsx";
 import ListProps from "./ListProps.jsx";
+import Button from "./Button.jsx"
+import ProfilePicture from './ProfilePicture.jsx'
+import MyComponent from "./MyComponent.jsx";
+import Counter from "./Counter.jsx"
 
 // cd into my-react-app,  npm run dev
 
+// props: <Student name="Spongebob" age={30} isStudent={true}/>
 function App() {
 
   const fruits = [{id: 1, name: "apple", calories: 95},
@@ -26,9 +31,13 @@ function App() {
 
   return(
     
-    <>
+    /*<>
       {fruits.length > 0 ? <ListProps items={fruits} category="Fruits"/> : null}
       {vegetables.length > 0 && <ListProps items={vegetables} category="Vegetables"/>}
+    </>*/
+
+    <>
+      <Counter />
     </>
   );
 }

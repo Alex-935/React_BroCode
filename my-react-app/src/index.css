@@ -159,3 +159,27 @@ button:focus-visible {
   color: hsl(0, 0%, 45%);
   cursor: pointer;
 }
+
+.counter-container {
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.counter-display {
+  font-size: 10em;
+  margin: 0px, 0px, 50px, 0px;
+}
+.counter-button {
+  width: 250px;
+  height: 150px;
+  font-size: 1.5em;
+  font-weight: bold;
+  margin: 0px 5px;
+  color: rgb(255, 255, 255);
+  background-color: rgb(29, 146, 185);
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.counter-button:hover {
+   background-color: rgba(29, 146, 185, 0.85);
+}
