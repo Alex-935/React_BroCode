@@ -11,6 +11,7 @@ import Button from "./Button.jsx"
 import ProfilePicture from './ProfilePicture.jsx'
 import MyComponent from "./MyComponent.jsx";
 import Counter from "./Counter.jsx"
+import OnChangeComponent from "./OnChangeComponent.jsx";
 
 // cd into my-react-app,  npm run dev
 
@@ -37,7 +38,7 @@ function App() {
     </>*/
 
     <>
-      <Counter />
+      <OnChangeComponent />
     </>
   );
 }
