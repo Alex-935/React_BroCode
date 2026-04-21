@@ -12,6 +12,7 @@ import ProfilePicture from './ProfilePicture.jsx'
 import MyComponent from "./MyComponent.jsx";
 import Counter from "./Counter.jsx"
 import OnChangeComponent from "./OnChangeComponent.jsx";
+import ColourPicker from "./ColourPicker.jsx";
 
 // cd into my-react-app,  npm run dev
 
@@ -38,7 +39,7 @@ function App() {
     </>*/
 
     <>
-      <OnChangeComponent />
+      <ColourPicker />
     </>
   );
 }
