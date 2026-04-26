@@ -14,6 +14,8 @@ import Counter from "./Counter.jsx"
 import OnChangeComponent from "./OnChangeComponent.jsx";
 import ColourPicker from "./ColourPicker.jsx";
 import MyComponentUpdater from "./MyComponentUpdater.jsx";
+import MyComponentUpdateObjects from "./MyComponentUpdateObjects.jsx";
+import MyCompontentUpdateArray from "./MyComponentUpdateArray.jsx";
 
 // cd into my-react-app,  npm run dev
 
