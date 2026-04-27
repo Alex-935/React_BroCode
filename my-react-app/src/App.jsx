@@ -16,6 +16,7 @@ import ColourPicker from "./ColourPicker.jsx";
 import MyComponentUpdater from "./MyComponentUpdater.jsx";
 import MyComponentUpdateObjects from "./MyComponentUpdateObjects.jsx";
 import MyCompontentUpdateArray from "./MyComponentUpdateArray.jsx";
+import MyComponentUpdateArrayOfObjects from "./MyComponentUpdateArrayOfObjects.jsx";
 
 // cd into my-react-app,  npm run dev
 
