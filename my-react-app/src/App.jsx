@@ -17,6 +17,7 @@ import MyComponentUpdater from "./MyComponentUpdater.jsx";
 import MyComponentUpdateObjects from "./MyComponentUpdateObjects.jsx";
 import MyCompontentUpdateArray from "./MyComponentUpdateArray.jsx";
 import MyComponentUpdateArrayOfObjects from "./MyComponentUpdateArrayOfObjects.jsx";
+import ToDoList from "./ToDoList/ToDoList.jsx";
 
 // cd into my-react-app,  npm run dev
 
@@ -43,7 +44,7 @@ function App() {
     </>*/
 
     <>
-      <MyComponentUpdater />
+      <ToDoList />
     </>
   );
 }
