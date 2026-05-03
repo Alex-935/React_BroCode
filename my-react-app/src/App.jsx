@@ -18,6 +18,9 @@ import MyComponentUpdateObjects from "./MyComponentUpdateObjects.jsx";
 import MyCompontentUpdateArray from "./MyComponentUpdateArray.jsx";
 import MyComponentUpdateArrayOfObjects from "./MyComponentUpdateArrayOfObjects.jsx";
 import ToDoList from "./ToDoList/ToDoList.jsx";
+import UseEffect from "./UseEffect.jsx";
+import UseEffectWithReturn from "./UseEffectWithReturn.jsx";
+import DigitalClock from "./DigitalClock/DigitalClock.jsx";
 
 // cd into my-react-app,  npm run dev
 
@@ -44,7 +47,7 @@ function App() {
     </>*/
 
     <>
-      <ToDoList />
+      <DigitalClock />
     </>
   );
 }
