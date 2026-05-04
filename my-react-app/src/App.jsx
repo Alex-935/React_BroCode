@@ -21,6 +21,11 @@ import ToDoList from "./ToDoList/ToDoList.jsx";
 import UseEffect from "./UseEffect.jsx";
 import UseEffectWithReturn from "./UseEffectWithReturn.jsx";
 import DigitalClock from "./DigitalClock/DigitalClock.jsx";
+import UseContextComponentA from "./UseContextComponentA.jsx";
+import UseContextComponentB from "./UseContextComponentB.jsx";
+import UseContextComponentC from "./UseContextComponentC.jsx";
+import UseContextComponentD from "./UseContextComponentD.jsx";
+import UseRef from "./useRef.jsx";
 
 // cd into my-react-app,  npm run dev
 
@@ -47,7 +52,7 @@ function App() {
     </>*/
 
     <>
-      <DigitalClock />
+      <UseRef />
     </>
   );
 }
