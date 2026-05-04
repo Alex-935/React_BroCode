@@ -26,6 +26,7 @@ import UseContextComponentB from "./UseContextComponentB.jsx";
 import UseContextComponentC from "./UseContextComponentC.jsx";
 import UseContextComponentD from "./UseContextComponentD.jsx";
 import UseRef from "./useRef.jsx";
+import Stopwatch from "./Stopwatch/Stopwatch.jsx";
 
 // cd into my-react-app,  npm run dev
 
@@ -52,7 +53,7 @@ function App() {
     </>*/
 
     <>
-      <UseRef />
+      <Stopwatch />
     </>
   );
 }
